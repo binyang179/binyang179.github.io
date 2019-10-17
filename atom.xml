@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://binyang.best/"/>
-  <updated>2019-10-16T03:13:25.512Z</updated>
+  <updated>2019-10-17T07:07:04.573Z</updated>
   <id>https://binyang.best/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>程序员的通信软件</title>
+    <link href="https://binyang.best/2019/10/17/cheng-xu-yuan-de-tong-xin-ruan-jian/"/>
+    <id>https://binyang.best/2019/10/17/cheng-xu-yuan-de-tong-xin-ruan-jian/</id>
+    <published>2019-10-17T07:04:15.000Z</published>
+    <updated>2019-10-17T07:07:04.573Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;seriously,你个学程序的用QQ，Wechat？？？&lt;/p&gt;
+&lt;p&gt;对QWB恨之入骨的啊。&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+      <category term="diss" scheme="https://binyang.best/tags/diss/"/>
+    
+  </entry>
   
   <entry>
     <title>python生成词云教程</title>

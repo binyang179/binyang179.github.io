@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://binyang.best/contact/index.html</loc>
+    
+    <lastmod>2019-10-17T09:24:09.145Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://binyang.best/2019/10/17/cheng-xu-yuan-de-tong-xin-ruan-jian/</loc>
     
     <lastmod>2019-10-17T07:07:04.573Z</lastmod>
@@ -47,13 +54,6 @@
     <loc>https://binyang.best/2019/10/15/manjaro/</loc>
     
     <lastmod>2019-10-15T13:20:25.526Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://binyang.best/contact/index.html</loc>
-    
-    <lastmod>2019-10-15T12:59:20.708Z</lastmod>
     
   </url>
   
@@ -142,14 +142,14 @@
   </url>
   
   <url>
-    <loc>https://binyang.best/archives/index.html</loc>
+    <loc>https://binyang.best/categories/index.html</loc>
     
     <lastmod>2019-10-14T23:09:26.061Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://binyang.best/categories/index.html</loc>
+    <loc>https://binyang.best/archives/index.html</loc>
     
     <lastmod>2019-10-14T23:09:26.061Z</lastmod>
     

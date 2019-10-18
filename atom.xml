@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://binyang.best/"/>
-  <updated>2019-10-18T13:22:22.175Z</updated>
+  <updated>2019-10-18T16:25:21.530Z</updated>
   <id>https://binyang.best/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>illegalcharacter:﻿error</title>
+    <link href="https://binyang.best/2019/10/19/illegalcharacter-ufefferror/"/>
+    <id>https://binyang.best/2019/10/19/illegalcharacter-ufefferror/</id>
+    <published>2019-10-18T16:00:23.000Z</published>
+    <updated>2019-10-18T16:25:21.530Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;UTF-8格式编码与UTF-8无BOM格式编码的区别&lt;br&gt;你看，windowns缺点有多少，我得专门写一篇diss windows.&lt;br&gt;在UCS 编码中有一个叫做”ZERO WIDTH NO-BREAK
+        
+      
+    
+    </summary>
+    
+      <category term="utf-8" scheme="https://binyang.best/categories/utf-8/"/>
+    
+    
+      <category term="diss windows" scheme="https://binyang.best/tags/diss-windows/"/>
+    
+  </entry>
   
   <entry>
     <title>telegram</title>
@@ -474,32 +500,6 @@
     
     
       <category term="TV web" scheme="https://binyang.best/tags/TV-web/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Yes,Minister</title>
-    <link href="https://binyang.best/2019/01/15/yes-minister/"/>
-    <id>https://binyang.best/2019/01/15/yes-minister/</id>
-    <published>2019-01-15T03:58:59.000Z</published>
-    <updated>2019-10-15T06:36:30.855Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Yes,Minister和Yes,Prime Minister资源&lt;br&gt;电子书&lt;br&gt;shareID: 791285259, 链接: &lt;a href=&quot;https://pan.baidu.com/s/1GdueO1nl-7CpgGDP87G43A&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="movie&amp;TV series" scheme="https://binyang.best/categories/movie-TV-series/"/>
-    
-    
-      <category term="British TV series" scheme="https://binyang.best/tags/British-TV-series/"/>
     
   </entry>
   

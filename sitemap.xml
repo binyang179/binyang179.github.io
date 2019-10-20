@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://binyang.best/2019/10/20/dnspod/</loc>
+    
+    <lastmod>2019-10-20T15:40:19.943Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://binyang.best/about/index.html</loc>
     
     <lastmod>2019-10-20T06:16:35.298Z</lastmod>
@@ -198,14 +205,14 @@
   </url>
   
   <url>
-    <loc>https://binyang.best/tags/index.html</loc>
+    <loc>https://binyang.best/categories/index.html</loc>
     
     <lastmod>2019-10-14T23:09:26.061Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://binyang.best/categories/index.html</loc>
+    <loc>https://binyang.best/tags/index.html</loc>
     
     <lastmod>2019-10-14T23:09:26.061Z</lastmod>
     

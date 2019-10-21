@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://binyang.best/"/>
-  <updated>2019-10-21T06:10:49.189Z</updated>
+  <updated>2019-10-21T13:58:09.178Z</updated>
   <id>https://binyang.best/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Command Line Heroes</title>
+    <link href="https://binyang.best/2019/10/21/command-line-heroes/"/>
+    <id>https://binyang.best/2019/10/21/command-line-heroes/</id>
+    <published>2019-10-21T13:55:53.000Z</published>
+    <updated>2019-10-21T13:58:09.178Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;命令行英雄，讲得非常好唔，学到很多&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+      <category term="redhat" scheme="https://binyang.best/categories/redhat/"/>
+    
+    
+      <category term="redhat" scheme="https://binyang.best/tags/redhat/"/>
+    
+  </entry>
   
   <entry>
     <title>找工作需要注意的</title>
@@ -465,29 +492,6 @@
     
     
       <category term="iss" scheme="https://binyang.best/tags/iss/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Yasujirō Ozu</title>
-    <link href="https://binyang.best/2019/10/15/yasujiro-ozu/"/>
-    <id>https://binyang.best/2019/10/15/yasujiro-ozu/</id>
-    <published>2019-10-15T06:37:32.000Z</published>
-    <updated>2019-10-15T06:37:49.878Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;小津安二郎&lt;/p&gt;
-
-        
-      
-    
-    </summary>
-    
     
   </entry>
   

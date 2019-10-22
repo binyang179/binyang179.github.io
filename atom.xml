@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://binyang.best/"/>
-  <updated>2019-10-21T13:58:09.178Z</updated>
+  <updated>2019-10-22T10:09:58.275Z</updated>
   <id>https://binyang.best/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>视频面试总结</title>
+    <link href="https://binyang.best/2019/10/22/shi-pin-mian-shi-zong-jie/"/>
+    <id>https://binyang.best/2019/10/22/shi-pin-mian-shi-zong-jie/</id>
+    <published>2019-10-22T08:40:41.000Z</published>
+    <updated>2019-10-22T10:09:58.275Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;​        第一次视频面试，紧张的很，乱记一番。&lt;/p&gt;
+&lt;p&gt;​       
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Command Line Heroes</title>
@@ -468,30 +491,6 @@
     
     
       <category term="lucky to known" scheme="https://binyang.best/tags/lucky-to-known/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>django链接mysql</title>
-    <link href="https://binyang.best/2019/10/15/django-lian-jie-mysql/"/>
-    <id>https://binyang.best/2019/10/15/django-lian-jie-mysql/</id>
-    <published>2019-10-15T08:03:28.000Z</published>
-    <updated>2019-10-15T11:55:28.266Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h4 id=&quot;最新的Django安装和连接mysql会提示mysqclient版本只有0-9几，但实际上你是安装了1-13版本的，这时候就应该&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="iss" scheme="https://binyang.best/tags/iss/"/>
     
   </entry>
   

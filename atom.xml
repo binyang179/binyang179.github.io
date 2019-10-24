@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://binyang.best/"/>
-  <updated>2019-10-24T04:21:05.407Z</updated>
+  <updated>2019-10-24T13:47:46.920Z</updated>
   <id>https://binyang.best/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我不配</title>
+    <link href="https://binyang.best/2019/10/24/wo-bu-pei/"/>
+    <id>https://binyang.best/2019/10/24/wo-bu-pei/</id>
+    <published>2019-10-24T13:45:28.000Z</published>
+    <updated>2019-10-24T13:47:46.920Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;自称Vim党，结果别人一问三不知，丢人到家了，看家本领都丢了，以后，我叫Vim学员。&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>v2ray全局配置</title>
@@ -471,33 +494,6 @@
     
     
       <category term="So So Sorry" scheme="https://binyang.best/tags/So-So-Sorry/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Le Petit Prince</title>
-    <link href="https://binyang.best/2019/10/15/le-petit-prince/"/>
-    <id>https://binyang.best/2019/10/15/le-petit-prince/</id>
-    <published>2019-10-15T09:43:35.000Z</published>
-    <updated>2019-10-15T12:06:15.208Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;第一本让我决定学法语的书&lt;/p&gt;
-
-        
-      
-    
-    </summary>
-    
-      <category term="book" scheme="https://binyang.best/categories/book/"/>
-    
-    
-      <category term="lucky to known" scheme="https://binyang.best/tags/lucky-to-known/"/>
     
   </entry>
   

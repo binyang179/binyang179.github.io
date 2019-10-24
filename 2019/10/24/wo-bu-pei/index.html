@@ -4,15 +4,12 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="v2ray全局配置, ECNU NLP DeepLearning AntNLP 杨斌 tensorflow binyang 深度学习">
+    <meta name="keywords" content="我不配, ECNU NLP DeepLearning AntNLP 杨斌 tensorflow binyang 深度学习">
     <meta name="baidu-site-verification" content>
     <meta name="google-site-verification" content>
     <meta name="360-site-verification" content>
-    <meta name="description" content="请看链接
-重定向TCP流量iptables -t nat -N V2RAY
-# Ignore your V2Ray outbound traffic
-# It&#39;s very IMPORTANT, just be careful.
-iptab">
+    <meta name="description" content="自称Vim党，结果别人一问三不知，丢人到家了，看家本领都丢了，以后，我叫Vim学员。
+">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -20,7 +17,7 @@ iptab">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>v2ray全局配置 | 杨斌的博客</title>
+    <title>我不配 | 杨斌的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -294,13 +291,13 @@ iptab">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        v2ray全局配置
+                        我不配
                     </div>
                 </div>
             </div>
@@ -410,11 +407,7 @@ iptab">
                 <div class="col s7">
                     
                     <div class="article-tag">
-                        
-                        <a href="/tags/v2ray/" target="_blank">
-                            <span class="chip bg-color">v2ray</span>
-                        </a>
-                        
+                        <span class="chip bg-color">无标签</span>
                     </div>
                     
                 </div>
@@ -440,14 +433,14 @@ iptab">
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.3k
+                    32
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    6 分
+                    1 分
                 </div>
                 
                 
@@ -463,148 +456,7 @@ iptab">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><a href="[https://xdays.me/V2RAY%E9%80%8F%E6%98%8E%E4%BB%A3%E7%90%86/](https://xdays.me/V2RAY透明代理/)">请看链接</a></p>
-<h2 id="重定向TCP流量"><a href="#重定向TCP流量" class="headerlink" title="重定向TCP流量"></a>重定向TCP流量</h2><pre class="line-numbers language-bash"><code class="language-bash">iptables -t nat -N V2RAY
-<span class="token comment" spellcheck="true"># Ignore your V2Ray outbound traffic</span>
-<span class="token comment" spellcheck="true"># It's very IMPORTANT, just be careful.</span>
-iptables -t nat -A V2RAY -p tcp -j RETURN -m mark --mark 0xff
-<span class="token comment" spellcheck="true"># Ignore LANs and any other addresses you'd like to bypass the proxy</span>
-<span class="token comment" spellcheck="true"># See Wikipedia and RFC5735 for full list of reserved networks.</span>
-iptables -t nat -A V2RAY -d 0.0.0.0/8 -j RETURN
-iptables -t nat -A V2RAY -d 10.0.0.0/8 -j RETURN
-iptables -t nat -A V2RAY -d 127.0.0.0/8 -j RETURN
-iptables -t nat -A V2RAY -d 169.254.0.0/16 -j RETURN
-iptables -t nat -A V2RAY -d 172.16.0.0/12 -j RETURN
-iptables -t nat -A V2RAY -d 192.168.0.0/16 -j RETURN
-iptables -t nat -A V2RAY -d 224.0.0.0/4 -j RETURN
-iptables -t nat -A V2RAY -d 240.0.0.0/4 -j RETURN
-<span class="token comment" spellcheck="true"># Anything else should be redirected to Dokodemo-door's local port</span>
-iptables -t nat -A V2RAY -p tcp -j REDIRECT --to-ports 1099<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>注意这里有一个关键规则<code>iptables -t nat -A V2RAY -p tcp -j RETURN -m mark --mark 0xff</code>，这个规则就是为了排除v2ray要发出去的流量，没有这个规则的话就成死循环了，v2ray要发出去的流量又被重定向给了v2ray。</p>
-<p>然后分别在<code>PREROUTING</code>和<code>OUTPUT</code>连个链里应用我们新建的<code>V2RAY</code>链，前者是为了重定向其他设备过来的TCP流量，后者是重定向本机发出的TCP流量。</p>
-<pre class="line-numbers language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># apply redirect for traffic forworded by this proxy</span>
-iptables -t nat -A PREROUTING  -p tcp -j V2RAY
-<span class="token comment" spellcheck="true"># apply redirect for proxy itself</span>
-iptables -t nat -A OUTPUT -p tcp -j V2RAY<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="重定向UDP流量"><a href="#重定向UDP流量" class="headerlink" title="重定向UDP流量"></a>重定向UDP流量</h2><pre class="line-numbers language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># UDP Redirect</span>
-iptables -t mangle -N V2RAY
-iptables -t mangle -A V2RAY -p udp -j RETURN -m mark --mark 0xff
-iptables -t mangle -A V2RAY -p udp --dport 53 -j TPROXY --on-port 1099 --tproxy-mark 0x01/0x01<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<p>注意这里也有一个关键规则<code>iptables -t mangle -A V2RAY -p udp -j RETURN -m mark --mark 0xff</code>目的和TCP REDIRECT里的一样，避免死循环。</p>
-<p>然后配置策略路由，按mark匹配流量，将流量路由到本机回环接口。</p>
-<pre class="line-numbers language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># add route for udp traffic</span>
-ip route add local default dev lo table 100
-ip rule add fwmark 1 lookup 100<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<p>注意，这条路由规则的类型是<code>local</code>，我的理解内核把<code>TPEOXY</code>和路由关联起来了</p>
-<p>最后就是，把这条链应用到<code>PREROUTING</code>链里，这样就能重定向其他设备过来的UDP流量了。</p>
-<pre class="line-numbers language-bash"><code class="language-bash">iptables -t mangle -A PREROUTING -j V2RAY<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>好像还没有完，我们还没有重定向本机发出的UDP流量，这也是我目前的一个困惑点。先说我的做法吧，我再mangle表的<code>OUTPUT</code>链里添加了如下两条规则：</p>
-<pre class="line-numbers language-bash"><code class="language-bash">iptables -t mangle -N V2RAY_MARK
-iptables -t mangle -A V2RAY_MARK -p udp -j RETURN -m mark --mark 0xff
-iptables -t mangle -A V2RAY_MARK -p udp --dport 53 -j MARK --set-mark 1
-iptables -t mangle -A OUTPUT -j V2RAY_MARK<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<p>第一条规则仍然是排除v2ray自己的流量，第二条是给UDP数据包打上了mark，而只是打上mark怎么就出发上面的重定向规则嘞？目前我的比较粗浅的理解就是上面数据包流程图里mangle的<code>OUTPUT</code>链会触发reroute check，也就让数据包重新从<code>PREROUTING</code>链走了一遍。</p>
-<h2 id="there"><a href="#there" class="headerlink" title="there"></a>there</h2><p>编写iptables操作脚本</p>
-<pre class="line-numbers language-bash"><code class="language-bash"><span class="token shebang important">#!/bin/bash</span>
-<span class="token comment" spellcheck="true"># -*- coding: utf-8 -*-</span>
-
-start<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token comment" spellcheck="true"># TCP Redirect</span>
-    <span class="token comment" spellcheck="true"># Create new chain</span>
-    iptables -t nat -N V2RAY
-
-    <span class="token comment" spellcheck="true"># Ignore your V2Ray outbound traffic</span>
-    <span class="token comment" spellcheck="true"># It's very IMPORTANT, just be careful.</span>
-    iptables -t nat -A V2RAY -p tcp -j RETURN -m mark --mark 0xff
-    <span class="token comment" spellcheck="true"># Ignore LANs and any other addresses you'd like to bypass the proxy</span>
-    <span class="token comment" spellcheck="true"># See Wikipedia and RFC5735 for full list of reserved networks.</span>
-    iptables -t nat -A V2RAY -d 0.0.0.0/8 -j RETURN
-    iptables -t nat -A V2RAY -d 10.0.0.0/8 -j RETURN
-    iptables -t nat -A V2RAY -d 127.0.0.0/8 -j RETURN
-    iptables -t nat -A V2RAY -d 169.254.0.0/16 -j RETURN
-    iptables -t nat -A V2RAY -d 172.16.0.0/12 -j RETURN
-    iptables -t nat -A V2RAY -d 192.168.0.0/16 -j RETURN
-    iptables -t nat -A V2RAY -d 224.0.0.0/4 -j RETURN
-    iptables -t nat -A V2RAY -d 240.0.0.0/4 -j RETURN
-    <span class="token comment" spellcheck="true"># Anything else should be redirected to Dokodemo-door's local port</span>
-    iptables -t nat -A V2RAY -p tcp -j REDIRECT --to-ports 1099
-
-    <span class="token comment" spellcheck="true"># apply redirect for traffic forworded by this proxy</span>
-    iptables -t nat -A PREROUTING  -p tcp -j V2RAY
-    <span class="token comment" spellcheck="true"># apply redirect for proxy itself</span>
-    iptables -t nat -A OUTPUT -p tcp -j V2RAY
-
-
-    <span class="token comment" spellcheck="true"># UDP Redirect</span>
-    iptables -t mangle -N V2RAY
-    iptables -t mangle -A V2RAY -p udp -j RETURN -m mark --mark 0xff
-    iptables -t mangle -A V2RAY -p udp --dport 53 -j TPROXY --on-port 1099 --tproxy-mark 0x01/0x01
-    iptables -t mangle -N V2RAY_MARK
-    iptables -t mangle -A V2RAY_MARK -p udp -j RETURN -m mark --mark 0xff
-    iptables -t mangle -A V2RAY_MARK -p udp --dport 53 -j MARK --set-mark 1
-
-    <span class="token comment" spellcheck="true"># add route for udp traffic</span>
-    ip route add local default dev lo table 100
-    ip rule add fwmark 1 lookup 100
-
-    <span class="token comment" spellcheck="true"># Apply the rules</span>
-    <span class="token comment" spellcheck="true"># apply udp tproxy for traffic forworded by this proxy</span>
-    iptables -t mangle -A PREROUTING -j V2RAY
-    <span class="token comment" spellcheck="true"># apply udp tproxy for proxy itself</span>
-    iptables -t mangle -A OUTPUT -j V2RAY_MARK
-<span class="token punctuation">}</span>
-
-stop<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    iptables -t nat -D PREROUTING  -p tcp -j V2RAY
-    iptables -t nat -D OUTPUT -p tcp -j V2RAY
-    iptables -t nat -F V2RAY
-    iptables -t nat -X V2RAY
-    iptables -t mangle -D PREROUTING -j V2RAY
-    iptables -t mangle -F V2RAY
-    iptables -t mangle -X V2RAY
-    iptables -t mangle -D OUTPUT -j V2RAY
-    iptables -t mangle -F V2RAY_MARK
-    iptables -t mangle -X V2RAY_MARK
-    ip rule del fwmark 1 lookup 100
-    ip route del local default dev lo table 100
-<span class="token punctuation">}</span>
-
-<span class="token keyword">case</span> <span class="token variable">$1</span> <span class="token keyword">in</span>
-start<span class="token punctuation">)</span>
-    start
-    <span class="token punctuation">;</span><span class="token punctuation">;</span>
-stop<span class="token punctuation">)</span>
-    stop
-    <span class="token punctuation">;</span><span class="token punctuation">;</span>
-*<span class="token punctuation">)</span>
-    <span class="token keyword">echo</span> <span class="token string">"<span class="token variable">$0</span> start|stop"</span>
-    <span class="token punctuation">;</span><span class="token punctuation">;</span>
-esac<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>然后是服务管理脚本</p>
-<pre class="line-numbers language-bash"><code class="language-bash"><span class="token shebang important">#!/bin/sh</span> /etc/rc.common
-<span class="token comment" spellcheck="true"># "new" style init script</span>
-<span class="token comment" spellcheck="true"># Look at /lib/functions/service.sh on a running system for explanations of what other SERVICE_</span>
-<span class="token comment" spellcheck="true"># options you can use, and when you might want them.</span>
-
-START<span class="token operator">=</span>80
-STOP<span class="token operator">=</span>20
-APP<span class="token operator">=</span>v2ray
-SERVICE_WRITE_PID<span class="token operator">=</span>1
-SERVICE_DAEMONIZE<span class="token operator">=</span>1
-PREFIX<span class="token operator">=</span>/usr/local/v2ray
-
-start<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    service_start <span class="token variable">$PREFIX</span>/v2ray -config <span class="token variable">$PREFIX</span>/client_proxy.json
-    <span class="token variable">$PREFIX</span>/client_proxy.sh start
-<span class="token punctuation">}</span>
-
-stop<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token variable">$PREFIX</span>/client_proxy.sh stop
-    service_stop <span class="token variable">$PREFIX</span>/v2ray
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>最后启用脚本，开机启动</p>
-<pre class="line-numbers language-bash"><code class="language-bash">/etc/init.d/v2ray start
-/etc/init.d/v2ray <span class="token function">enable</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+                <p>自称Vim党，结果别人一问三不知，丢人到家了，看家本领都丢了，以后，我叫Vim学员。</p>
 
             </div>
             <hr />
@@ -763,9 +615,9 @@ stop<span class="token punctuation">(</span><span class="token punctuation">)</s
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《v2ray全局配置》
+                    《我不配》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/10/24/v2ray-quan-ju-pei-zhi/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/10/24/wo-bu-pei/" property="cc:attributionName"
                rel="cc:attributionURL">
                 杨斌
             </a> 采用
@@ -806,7 +658,7 @@ stop<span class="token punctuation">(</span><span class="token punctuation">)</s
         repo: 'binyang179.github.io',
         owner: 'binyang179',
         admin: "binyang179",
-        id: '2019/10/24/v2ray-quan-ju-pei-zhi/',
+        id: '2019/10/24/wo-bu-pei/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -827,9 +679,10 @@ stop<span class="token punctuation">(</span><span class="token punctuation">)</s
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2019/10/24/wo-bu-pei/">
                     <div class="card-image">
@@ -847,14 +700,15 @@ stop<span class="token punctuation">(</span><span class="token punctuation">)</s
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-10-24
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-10-24
+                            </span>
                         <span class="publish-author">
                             
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -865,29 +719,41 @@ stop<span class="token punctuation">(</span><span class="token punctuation">)</s
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/10/22/shi-pin-mian-shi-zong-jie/">
+                <a href="/2019/10/24/v2ray-quan-ju-pei-zhi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="视频面试总结">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="v2ray全局配置">
                         
-                        <span class="card-title">视频面试总结</span>
+                        <span class="card-title">v2ray全局配置</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            一定不要慌
+                            请看链接
+重定向TCP流量iptables -t nat -N V2RAY
+# Ignore your V2Ray outbound traffic
+# It's very IMPORTANT, just be careful.
+iptab
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-10-22
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-10-24
                             </span>
                         <span class="publish-author">
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/v2ray/" target="_blank">
+                        <span class="chip bg-color">v2ray</span>
+                    </a>
+                    
                 </div>
                 
             </div>

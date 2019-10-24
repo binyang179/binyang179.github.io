@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://binyang.best/2019/10/24/wo-bu-pei/</loc>
+    
+    <lastmod>2019-10-24T13:47:46.920Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://binyang.best/about/index.html</loc>
     
     <lastmod>2019-10-24T07:29:05.971Z</lastmod>
@@ -233,14 +240,14 @@
   </url>
   
   <url>
-    <loc>https://binyang.best/categories/index.html</loc>
+    <loc>https://binyang.best/tags/index.html</loc>
     
     <lastmod>2019-10-14T23:09:26.061Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://binyang.best/tags/index.html</loc>
+    <loc>https://binyang.best/categories/index.html</loc>
     
     <lastmod>2019-10-14T23:09:26.061Z</lastmod>
     

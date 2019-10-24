@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://binyang.best/"/>
-  <updated>2019-10-22T11:12:36.044Z</updated>
+  <updated>2019-10-24T04:21:05.407Z</updated>
   <id>https://binyang.best/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>v2ray全局配置</title>
+    <link href="https://binyang.best/2019/10/24/v2ray-quan-ju-pei-zhi/"/>
+    <id>https://binyang.best/2019/10/24/v2ray-quan-ju-pei-zhi/</id>
+    <published>2019-10-24T03:24:54.000Z</published>
+    <updated>2019-10-24T04:21:05.407Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;[https://xdays.me/V2RAY%E9%80%8F%E6%98%8E%E4%BB%A3%E7%90%86/](https://xdays.me/V2RAY透明代理/)&quot;&gt;请看链接&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;重定向TCP流量&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="v2ray" scheme="https://binyang.best/tags/v2ray/"/>
+    
+  </entry>
   
   <entry>
     <title>视频面试总结</title>
@@ -466,24 +491,6 @@
 
         
       
-    
-    </summary>
-    
-      <category term="book" scheme="https://binyang.best/categories/book/"/>
-    
-    
-      <category term="lucky to known" scheme="https://binyang.best/tags/lucky-to-known/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>The Catcher in the Rye</title>
-    <link href="https://binyang.best/2019/10/15/the-catcher-in-the-rye/"/>
-    <id>https://binyang.best/2019/10/15/the-catcher-in-the-rye/</id>
-    <published>2019-10-15T09:42:57.000Z</published>
-    <updated>2019-10-15T09:45:00.515Z</updated>
-    
-    <summary type="html">
     
     </summary>
     

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://binyang.best/"/>
-  <updated>2019-11-23T02:26:13.188Z</updated>
+  <updated>2019-11-27T08:55:26.815Z</updated>
   <id>https://binyang.best/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>kerberos认证原理</title>
+    <link href="https://binyang.best/2019/11/27/kerberos-ren-zheng-yuan-li/"/>
+    <id>https://binyang.best/2019/11/27/kerberos-ren-zheng-yuan-li/</id>
+    <published>2019-11-27T08:54:44.000Z</published>
+    <updated>2019-11-27T08:55:26.815Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;一、
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>An Enemy of the State</title>
@@ -452,29 +474,6 @@
         
         
           &lt;p&gt;微星电脑，当初它的可以换显卡的主板吸引了我，毅然决然的入了手，&lt;br&gt;结果刚到没几天就把生命不能承受之六斤重的电脑摔坏了，屏幕转轴处裂开，&lt;br&gt;金属的外壳都凹下去一块。&lt;br&gt;完了，这样下去要沦为废话博客了&lt;/p&gt;
-
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>parrot os</title>
-    <link href="https://binyang.best/2019/10/15/parrot-os/"/>
-    <id>https://binyang.best/2019/10/15/parrot-os/</id>
-    <published>2019-10-15T13:20:41.000Z</published>
-    <updated>2019-10-15T13:22:34.080Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;有个大BUG啊，升级好多次了，一直没解决，分辨率不对，图形都好大的，不过小能手（咳）调整字体后就好了&lt;/p&gt;
 
         
       

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://binyang.best/"/>
-  <updated>2019-10-30T12:00:17.184Z</updated>
+  <updated>2019-11-23T02:26:13.188Z</updated>
   <id>https://binyang.best/</id>
   
   <author>
@@ -17,11 +17,50 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>遇伯乐记</title>
+    <title>An Enemy of the State</title>
+    <link href="https://binyang.best/2019/11/23/an-enemy-of-the-state/"/>
+    <id>https://binyang.best/2019/11/23/an-enemy-of-the-state/</id>
+    <published>2019-11-23T02:24:25.000Z</published>
+    <updated>2019-11-23T02:26:13.188Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;An Enemy of the State is “something is worse than violence”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;My  name is Simon Cheng and this
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://binyang.best/2019/11/17/test/"/>
+    <id>https://binyang.best/2019/11/17/test/</id>
+    <published>2019-11-17T09:50:29.000Z</published>
+    <updated>2019-11-17T09:50:29.972Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>大叔</title>
     <link href="https://binyang.best/2019/10/29/yu-bo-le-ji/"/>
     <id>https://binyang.best/2019/10/29/yu-bo-le-ji/</id>
     <published>2019-10-29T10:20:24.000Z</published>
-    <updated>2019-10-30T12:00:17.184Z</updated>
+    <updated>2019-11-07T12:57:42.363Z</updated>
     
     <summary type="html">
     
@@ -436,56 +475,6 @@
         
         
           &lt;p&gt;有个大BUG啊，升级好多次了，一直没解决，分辨率不对，图形都好大的，不过小能手（咳）调整字体后就好了&lt;/p&gt;
-
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>manjaro</title>
-    <link href="https://binyang.best/2019/10/15/manjaro/"/>
-    <id>https://binyang.best/2019/10/15/manjaro/</id>
-    <published>2019-10-15T13:16:35.000Z</published>
-    <updated>2019-10-15T13:20:25.526Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;硬件问题解决的很好，不过mint用习惯了，还是主要是mint&lt;/p&gt;
-
-        
-      
-    
-    </summary>
-    
-      <category term="tech" scheme="https://binyang.best/categories/tech/"/>
-    
-    
-      <category term="linux" scheme="https://binyang.best/tags/linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>podman</title>
-    <link href="https://binyang.best/2019/10/15/podman/"/>
-    <id>https://binyang.best/2019/10/15/podman/</id>
-    <published>2019-10-15T11:56:49.000Z</published>
-    <updated>2019-10-15T11:57:45.109Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;总结：非root运行非常好，不过没有ip地址，在manjaro下有问题的&lt;/p&gt;
 
         
       

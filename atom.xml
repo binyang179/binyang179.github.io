@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://binyang.best/"/>
-  <updated>2019-11-27T08:55:26.815Z</updated>
+  <updated>2019-11-29T01:33:11.102Z</updated>
   <id>https://binyang.best/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>增量还是全量</title>
+    <link href="https://binyang.best/2019/11/29/zeng-liang-huan-shi-quan-liang/"/>
+    <id>https://binyang.best/2019/11/29/zeng-liang-huan-shi-quan-liang/</id>
+    <published>2019-11-29T01:32:45.000Z</published>
+    <updated>2019-11-29T01:33:11.102Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;一、前言&lt;/p&gt;
+&lt;p&gt;应用部署是工程人员(包括开发、测试和运维)每日面对的重要问题之一。尤其是在应用交付频率越来越高的当下，工程人员经常需要花费巨大的成本和心血来完成频繁的应用部署工作。在过去半年里面，我们接触了大量的企业客户，他们来自不同的行业，有着不同的规模，但我们发
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>kerberos认证原理</title>
@@ -452,29 +475,6 @@
         
         
           &lt;p&gt;其实挺简单的，做了两个，有一个有图形界面，但是不知道放哪儿了，&lt;br&gt;&lt;a href=&quot;https://github.com/binyang179/wordcloud.git&quot; target=&quot;_blank&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>MSI gt62vr</title>
-    <link href="https://binyang.best/2019/10/15/msi-gt62vr/"/>
-    <id>https://binyang.best/2019/10/15/msi-gt62vr/</id>
-    <published>2019-10-15T13:36:43.000Z</published>
-    <updated>2019-10-15T13:41:33.295Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;微星电脑，当初它的可以换显卡的主板吸引了我，毅然决然的入了手，&lt;br&gt;结果刚到没几天就把生命不能承受之六斤重的电脑摔坏了，屏幕转轴处裂开，&lt;br&gt;金属的外壳都凹下去一块。&lt;br&gt;完了，这样下去要沦为废话博客了&lt;/p&gt;
-
         
       
     

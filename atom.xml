@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://binyang.best/"/>
-  <updated>2019-11-29T01:33:11.102Z</updated>
+  <updated>2019-12-10T08:30:57.776Z</updated>
   <id>https://binyang.best/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一个经历过双相的理想主义者想要对正在抑郁的同道说的话</title>
+    <link href="https://binyang.best/2019/12/10/yi-ge-jing-li-guo-shuang-xiang-de-li-xiang-zhu-yi-zhe-xiang-yao-dui-zheng-zai-yi-yu-de-tong-dao-shuo-de-hua/"/>
+    <id>https://binyang.best/2019/12/10/yi-ge-jing-li-guo-shuang-xiang-de-li-xiang-zhu-yi-zhe-xiang-yao-dui-zheng-zai-yi-yu-de-tong-dao-shuo-de-hua/</id>
+    <published>2019-12-10T08:29:51.000Z</published>
+    <updated>2019-12-10T08:30:57.776Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/ID4Qe2cSdWX1DbPtM1TLfw&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;在夜里潜行
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>github student package</title>
+    <link href="https://binyang.best/2019/11/29/github-student-package/"/>
+    <id>https://binyang.best/2019/11/29/github-student-package/</id>
+    <published>2019-11-29T13:17:29.000Z</published>
+    <updated>2019-11-29T13:17:29.622Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>增量还是全量</title>
@@ -432,54 +468,6 @@
     
     
       <category term="diss" scheme="https://binyang.best/tags/diss/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>程序员的通信软件</title>
-    <link href="https://binyang.best/2019/10/17/cheng-xu-yuan-de-tong-xin-ruan-jian/"/>
-    <id>https://binyang.best/2019/10/17/cheng-xu-yuan-de-tong-xin-ruan-jian/</id>
-    <published>2019-10-17T07:04:15.000Z</published>
-    <updated>2019-10-17T07:07:04.573Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;seriously,你个学程序的用QQ，Wechat？？？&lt;/p&gt;
-&lt;p&gt;对QWB恨之入骨的啊。&lt;/p&gt;
-
-        
-      
-    
-    </summary>
-    
-    
-      <category term="diss" scheme="https://binyang.best/tags/diss/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python生成词云教程</title>
-    <link href="https://binyang.best/2019/10/16/python-sheng-cheng-ci-yun-jiao-cheng/"/>
-    <id>https://binyang.best/2019/10/16/python-sheng-cheng-ci-yun-jiao-cheng/</id>
-    <published>2019-10-16T02:59:07.000Z</published>
-    <updated>2019-10-16T03:13:25.512Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;其实挺简单的，做了两个，有一个有图形界面，但是不知道放哪儿了，&lt;br&gt;&lt;a href=&quot;https://github.com/binyang179/wordcloud.git&quot; target=&quot;_blank&quot;
-        
-      
-    
-    </summary>
-    
     
   </entry>
   

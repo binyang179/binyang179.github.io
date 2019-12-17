@@ -278,7 +278,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = '';
+        let pwd = '123456';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
                 alert('密码错误，将返回主页！');
@@ -732,37 +732,38 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
-            </div>
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/12/10/yi-ge-jing-li-guo-shuang-xiang-de-li-xiang-zhu-yi-zhe-xiang-yao-dui-zheng-zai-yi-yu-de-tong-dao-shuo-de-hua/">
+                <a href="/2019/12/16/sun-misc-base64encoder-bu-ke-yong/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="一个经历过双相的理想主义者想要对正在抑郁的同道说的话">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="sun.misc.BASE64Encoder不可用">
                         
-                        <span class="card-title">一个经历过双相的理想主义者想要对正在抑郁的同道说的话</span>
+                        <span class="card-title">sun.misc.BASE64Encoder不可用</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            在夜里潜行 秋火杂谈集2世
-首先说明我为什么迫切写下这篇文字——我并不奢望只凭这些文字就能帮人脱离抑郁苦海，只是希望这些文字能减轻正在抑郁的理想主义同道的痛苦，或者至少能让正在抑郁的理想主义同道多一些积极的可能性，因为我的共情习惯会唤起自己
+                            sun.misc.BASE64Decoder和sun.misc.BASE64Encoder不可用，替换为java.util.Base64.Decoder
+文档查询
+decoder
+encoder
+
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-12-10
-                            </span>
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-12-16
+                        </span>
                         <span class="publish-author">
                             
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -955,7 +956,7 @@
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">29.6k</span>
+            <span class="white-color">29.7k</span>
             
 
             <br>

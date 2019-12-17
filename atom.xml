@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://binyang.best/"/>
-  <updated>2019-12-10T08:30:57.776Z</updated>
+  <updated>2019-12-16T08:14:42.658Z</updated>
   <id>https://binyang.best/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>sun.misc.BASE64Encoder不可用</title>
+    <link href="https://binyang.best/2019/12/16/sun-misc-base64encoder-bu-ke-yong/"/>
+    <id>https://binyang.best/2019/12/16/sun-misc-base64encoder-bu-ke-yong/</id>
+    <published>2019-12-16T08:09:57.000Z</published>
+    <updated>2019-12-16T08:14:42.658Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;sun.misc.BASE64Decoder和sun.misc.BASE64Encoder不可用，替换为java.util.Base64.Decoder&lt;/p&gt;
+&lt;p&gt;文档查询&lt;/p&gt;
+&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>一个经历过双相的理想主义者想要对正在抑郁的同道说的话</title>
     <link href="https://binyang.best/2019/12/10/yi-ge-jing-li-guo-shuang-xiang-de-li-xiang-zhu-yi-zhe-xiang-yao-dui-zheng-zai-yi-yu-de-tong-dao-shuo-de-hua/"/>
     <id>https://binyang.best/2019/12/10/yi-ge-jing-li-guo-shuang-xiang-de-li-xiang-zhu-yi-zhe-xiang-yao-dui-zheng-zai-yi-yu-de-tong-dao-shuo-de-hua/</id>
     <published>2019-12-10T08:29:51.000Z</published>
-    <updated>2019-12-10T08:30:57.776Z</updated>
+    <updated>2019-12-17T11:46:48.399Z</updated>
     
     <summary type="html">
     
@@ -444,30 +468,6 @@
     
     
       <category term="a single tear" scheme="https://binyang.best/tags/a-single-tear/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>找实习感想</title>
-    <link href="https://binyang.best/2019/10/17/zhao-shi-xi-gan-xiang/"/>
-    <id>https://binyang.best/2019/10/17/zhao-shi-xi-gan-xiang/</id>
-    <published>2019-10-17T15:08:12.000Z</published>
-    <updated>2019-10-17T15:16:54.699Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;这段时间以来都不能专心写代码，考虑找实习的事情，想找个南方的公司，那样实习后就可以直接留在公司了，&lt;br&gt;不然一毕业又要重新找工作，可是在学校又有一堆事情。&lt;br&gt;终于快从这个教育体系里离开了，思考起来，除了小学的一位语文老师，我对整个的教育体系，队伍都是充满恨意的，恨之入
-        
-      
-    
-    </summary>
-    
-    
-      <category term="diss" scheme="https://binyang.best/tags/diss/"/>
     
   </entry>
   

@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>sun.misc.BASE64Encoder不可用</title>
+      <link href="/2019/12/16/sun-misc-base64encoder-bu-ke-yong/"/>
+      <url>/2019/12/16/sun-misc-base64encoder-bu-ke-yong/</url>
+      
+        <content type="html"><![CDATA[<p>sun.misc.BASE64Decoder和sun.misc.BASE64Encoder不可用，替换为java.util.Base64.Decoder</p><p>文档查询</p><p><a href="https://docs.oracle.com/javase/9/docs/api/java/util/Base64.Decoder.html" target="_blank" rel="noopener">decoder</a></p><p><a href="https://docs.oracle.com/javase/9/docs/api/java/util/Base64.Encoder.html" target="_blank" rel="noopener">encoder</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>一个经历过双相的理想主义者想要对正在抑郁的同道说的话</title>
       <link href="/2019/12/10/yi-ge-jing-li-guo-shuang-xiang-de-li-xiang-zhu-yi-zhe-xiang-yao-dui-zheng-zai-yi-yu-de-tong-dao-shuo-de-hua/"/>
       <url>/2019/12/10/yi-ge-jing-li-guo-shuang-xiang-de-li-xiang-zhu-yi-zhe-xiang-yao-dui-zheng-zai-yi-yu-de-tong-dao-shuo-de-hua/</url>

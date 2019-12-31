@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://binyang.best/about/index.html</loc>
+    
+    <lastmod>2019-12-31T03:11:31.485Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://binyang.best/2019/12/16/sun-misc-base64encoder-bu-ke-yong/</loc>
     
     <lastmod>2019-12-24T14:11:47.685Z</lastmod>
@@ -61,13 +68,6 @@
     <loc>https://binyang.best/2019/10/24/wo-bu-pei/</loc>
     
     <lastmod>2019-10-26T02:56:30.848Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://binyang.best/about/index.html</loc>
-    
-    <lastmod>2019-10-24T07:29:05.971Z</lastmod>
     
   </url>
   
@@ -289,14 +289,14 @@
   </url>
   
   <url>
-    <loc>https://binyang.best/archives/index.html</loc>
+    <loc>https://binyang.best/categories/index.html</loc>
     
     <lastmod>2019-10-14T23:09:26.061Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://binyang.best/categories/index.html</loc>
+    <loc>https://binyang.best/archives/index.html</loc>
     
     <lastmod>2019-10-14T23:09:26.061Z</lastmod>
     
